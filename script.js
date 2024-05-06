@@ -13,4 +13,5 @@ window.onload = () => {
     container.appendChild(label);
   };
   const letters = charRange("A", "J");
+  letters.forEach(createLabel);
 };
